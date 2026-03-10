@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "gen-redirects-salisbury": "node scripts/salisbury-csv-to-redirect-map.mjs"
+    "gen-redirects": "node scripts/gen-redirect-map.mjs"
   },
   "dependencies": {
     "csv-parse": "^6.1.0",
